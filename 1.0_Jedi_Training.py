@@ -1,10 +1,10 @@
 '''
-1.0 Jedi Training (17pts)  Name:________________
+1.0 Jedi Training (17pts)  Name:Stephen Walters
 
 
-1. Define Forking (1pt): 
+1. Define Forking (1pt): Taking a set of code from an origal source
 
-2. Define Cloning (1pt): 
+2. Define Cloning (1pt): Making a copy of a car
 
 3. Define Branching (1pt):
 
@@ -12,9 +12,9 @@
 
 5. Define Merging (1pt): 
 
-6. Define Pushing (1pt):
+6. Define Pushing (1pt): Putting your local code into the cloud or github
 
-7. Define Pull Request (1pt):
+7. Define Pull Request (1pt): Asking to put your code into someone else's code
 
 
 8. TURTORIAL ART (10pts.)
@@ -26,28 +26,113 @@ The last line keeps the window open until you click to close.
 Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=turtle
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+
+donut = turtle.Turtle()
+#donut.shape('turtle')
+donut.speed(100)
+donut.ht#() #ADD ONCE DONUT IT FINISHED
+
+donut.dot(320, "tan")
+donut.dot(240,"pink")
+donut.dot(60,"white")
+donut.pu()
+donut.goto(0,100)
+donut.dot(75,"pink")
+
+donut.goto(100,0)
+donut.dot(85,"pink")
+
+donut.goto(-100,0)
+donut.dot(85,"pink")
+
+donut.goto(0,-100)
+donut.dot(85,"pink")
+
+donut.goto(65,-65)
+donut.dot(80,"pink")
+
+donut.goto(-65,-65)
+donut.dot(80,"pink")
+
+donut.goto(65,65)
+donut.dot(80,"pink")
+
+donut.goto(-65,65)
+donut.dot(80,"pink")
+
+donut.color("white")
+donut.goto(37,89)
+donut.pd()
+donut.pensize(5)
+
+'''
+making sprinkles
+'''
+
+donut.color("white")
+
+donut.seth(122)
+donut.fd(15)
+donut.pu()
+donut.goto(76,-94)
+
+donut.pd()
+donut.seth(92)
+donut.fd(15)
+donut.pu()
+donut.goto(-60,87)
+
+donut.pd()
+donut.seth(43)
+donut.fd(15)
+donut.pu()
+donut.goto(71,69)
+
+donut.pd()
+donut.seth(12333)
+donut.fd(15)
+donut.pu()
+donut.goto(-96,-61)
+
+donut.pd()
+donut.seth(749)
+donut.fd(15)
+donut.pu()
+donut.goto(-44,71)
+
+donut.pd()
+donut.seth(1239)
+donut.fd(15)
+donut.pu()
+donut.goto(-14,-85)
+
+donut.pd()
+donut.seth(396)
+donut.fd(15)
+donut.pu()
+donut.goto(53,-56)
+
+donut.pd()
+donut.seth(4312)
+donut.fd(15)
+donut.pu()
+donut.goto(-42,-15)
+
+donut.pd()
+donut.seth(12345)
+donut.fd(15)
+donut.pu()
+donut.goto(60,12)
+
+donut.pd()
+donut.seth(-1234)
+donut.fd(15)
+donut.pu()
+donut.goto(60,12)
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+donut.setpos(200,-300)
+donut.pendown()
+donut.pencolor('#FFD700')
+donut.write('-Stephen Walters',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
