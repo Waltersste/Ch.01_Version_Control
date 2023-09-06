@@ -30,11 +30,11 @@ import turtle
 donut = turtle.Turtle()
 #donut.shape('turtle')
 donut.speed(100)
-donut.ht#() #ADD ONCE DONUT IT FINISHED
+donut.ht() #ADD ONCE DONUT IT FINISHED
 
 donut.dot(320, "tan")
 donut.dot(240,"pink")
-donut.dot(60,"white")
+donut.dot(70,"white")
 donut.pu()
 donut.goto(0,100)
 donut.dot(75,"pink")
@@ -69,66 +69,87 @@ donut.pensize(5)
 making sprinkles
 '''
 
-donut.color("white")
-
+donut.color("purple")
 donut.seth(122)
 donut.fd(15)
 donut.pu()
 donut.goto(76,-94)
 
+donut.color("yellow")
 donut.pd()
 donut.seth(92)
 donut.fd(15)
 donut.pu()
 donut.goto(-60,87)
 
+donut.color("#CCCCFF")
 donut.pd()
 donut.seth(43)
 donut.fd(15)
 donut.pu()
 donut.goto(71,69)
 
+donut.color("#E0B0FF")
 donut.pd()
 donut.seth(12333)
 donut.fd(15)
 donut.pu()
 donut.goto(-96,-61)
 
+donut.color("#E0B0FF")
 donut.pd()
 donut.seth(749)
 donut.fd(15)
 donut.pu()
 donut.goto(-44,71)
 
+donut.color("blue")
 donut.pd()
 donut.seth(1239)
 donut.fd(15)
 donut.pu()
 donut.goto(-14,-85)
 
+donut.color("#40E0D0")
 donut.pd()
 donut.seth(396)
 donut.fd(15)
 donut.pu()
 donut.goto(53,-56)
 
+donut.color("#800000")
 donut.pd()
 donut.seth(4312)
 donut.fd(15)
 donut.pu()
 donut.goto(-42,-15)
 
+donut.color("#808000")
 donut.pd()
 donut.seth(12345)
 donut.fd(15)
 donut.pu()
 donut.goto(60,12)
 
+donut.color("#87CEEB")
 donut.pd()
 donut.seth(-1234)
 donut.fd(15)
 donut.pu()
-donut.goto(60,12)
+donut.goto(76,12)
+
+donut.color("orange")
+donut.pd()
+donut.seth(-734)
+donut.fd(15)
+donut.pu()
+
+donut.color("#FF10F0")
+donut.goto(-98,0)
+donut.pd()
+donut.seth(-734)
+donut.fd(15)
+donut.pu()
 
 
 donut.setpos(200,-300)
